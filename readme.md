@@ -1,5 +1,7 @@
 # **Android-菜鸟商城项目实战**
 
+实战B站视频的菜鸟商城项目，代码中有自己的注释和理解。
+
 **视频地址**：https://www.bilibili.com/video/BV1RJ411F7Kj?p=1
 
 **项目对应章节：**
