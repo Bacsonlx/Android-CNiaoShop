@@ -1,4 +1,4 @@
-# **菜鸟商城项目实战**
+# **Android-菜鸟商城项目实战**
 
 **视频地址**：https://www.bilibili.com/video/BV1RJ411F7Kj?p=1
 
