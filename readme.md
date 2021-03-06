@@ -8,15 +8,20 @@
 项目对应章节：（在更新中…）
 
 CNiaoShop_01: 底部导航栏 ( FragmentTabHost+Fragment )
+
 源码地址: https://github.com/Bacsonlx/Android-CNiaoShop/tree/master/CNiaoShop_01
+
 博客地址：https://blog.csdn.net/weixin_43750332/article/details/114449489
 
 CNiaoShop_02: 原生ToolBar和自定义ToolBar
+
 源码地址：https://github.com/Bacsonlx/Android-CNiaoShop/tree/master/CNiaoShop_02
+
 博客地址：https://blog.csdn.net/weixin_43750332/article/details/114450353
 
 CNiaoShop_03: SliderLayout实现轮播图
 
 源码地址：https://github.com/Bacsonlx/Android-CNiaoShop/tree/master/CNiaoShop_03
+
 博客地址：https://blog.csdn.net/weixin_43750332/article/details/114456718
 
