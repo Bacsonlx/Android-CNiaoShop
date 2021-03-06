@@ -1,8 +1,6 @@
 # **SliderLayout实现轮播图**
 
-源码地址：
-
-博客地址：
+博客地址：https://blog.csdn.net/weixin_43750332/article/details/114456718
 
 (注：代码采用的是第一章的模板，关于轮播图的代码只需要看HomeFragment以及相关的布局文件即可 )
 

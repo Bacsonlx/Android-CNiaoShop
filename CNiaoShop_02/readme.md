@@ -1,8 +1,10 @@
 # 自定义ToolBar的使用
 
+
+
+博客地址：https://blog.csdn.net/weixin_43750332/article/details/114450353
+
 代码中：**MainActivity演示的是自定义ToolBar的使用，TestActivity演示的是原生ToolBar的使用。**
-
-
 
 ## 一、原生ToolBar
 
@@ -16,9 +18,9 @@ Toolbar 是 android 5.0 引入的一个新控件，Toolbar出现之前，我们�
 
 在我们需要顶部导航栏的布局文件当中添加Toolbar，并且配置一些常用的属性（使用自定义属性的时候需要注意把命名空间“app”添加到根节点）
 
-![image-20210305213340288](C:\Users\11609\AppData\Roaming\Typora\typora-user-images\image-20210305213340288.png)
+![image-20210305213340288](C:\Users\11609\Pictures\Temp\2-0.png)
 
-![image-20210305213541686](C:\Users\11609\AppData\Roaming\Typora\typora-user-images\image-20210305213541686.png)
+![image-20210305213541686](C:\Users\11609\Pictures\Temp\2-2.png)
 
 这里只列出一些常用的属性，比如最小高度，返回按钮的图标，背景等等。这里需要注意的是，**属性值中的“?”表示对Android系统的主题样式进行重用**。意思是如果我们改变了主题样式中的**colorPrimary**属性的话，Toolbar的背景颜色也会随之改变，因此提醒我们去主题样式中进行一些配置。
 
@@ -45,7 +47,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 - **windowBackground**是指我们窗体的默认颜色。
 - **navigationBarColor**是指Android手机中虚拟按键的背景颜色。
 
-![img](file:///D:/Temp/msohtmlclip1/01/clip_image002.jpg)
+
 
 
 
@@ -70,8 +72,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
 
-    </style>http://schemas.android.com/apk/res-auto"就能够设置自定义样式
-![image-20210305114253923](C:\Users\11609\AppData\Roaming\Typora\typora-user-images\image-20210305114253923.png)
+    </style>
 ```
 
 ------
@@ -80,7 +81,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 
 通过下面的对比可以知道，原生的Toolbar画面太美不忍直视，一般来说要在项目当中使用Toolbar我们都应该去自定义Toolbar。下面开始讨论如何去自定义Toolbar。
 
-![1](C:\Users\11609\Pictures\1.png)
+![2-1](C:\Users\11609\Pictures\Temp\2-1.png)
 
 
 

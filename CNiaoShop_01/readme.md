@@ -1,5 +1,7 @@
 # **底部导航栏的实现方式**
 
+博客地址：https://blog.csdn.net/weixin_43750332/article/details/114449489
+
 ## **一、常见的实现方式**
 
 - TabHost+Activity：资源开销比较大，官方已经不推荐使用。
@@ -10,7 +12,7 @@
 
 ​		如下图所示，**整一个底部导航栏是一个FragmentTabHost**，里面包含的**每一个“小按钮”我们称之为TabSpec**，也就是每一个分页。TabSpec里面需要有**指示器Indicator**，用来指示用户选中了哪一个，里面一般包含一张图片和文字描述。
 
-![img](file:///D:/Temp/msohtmlclip1/01/clip_image002.jpg)
+![1](C:\Users\11609\Pictures\Temp\1.png)
 
 
 
@@ -28,37 +30,38 @@
 
 ### Selector的状态
 
-**1.android:state_pressed="true/false"**
-
-true:表示按下状态下使用，false:表示非按下状态下使用。
-
-**2.android:state_focused="true/false"**
-
-ture:表示聚焦状态使用（例如使用滚动球/D-pad聚焦Button），false:表示非聚集状态下使用。
-
-**3.android:state_selected="true/false"**
-
-true:表示被选中状态下使用，false:表示非选中下使用
-
-**4.android:state_active="true/false"**
-
-true:表示可勾选状态时使用，false:表示不可勾选状态下使用
-
-**5. android:state_checkable="true/false"**
-
-true:表示勾选状态下使用，false:表示非勾选状态使用
-
-**6.android:state_checked="true/false"**
-
-true:表示勾选状态下使用，false:表示非勾选状态使用
-
-**7. android:state_enabled="true/false"**
-
-true:表示可用状态使用（能接收触摸/点击事件），false:表示不可用状态使用
-
-**8. android:state_window_focused="true/false"**
-
-true:表示应用程序窗口有焦点时使用（应用程序在前台），false:表示无焦点时使用
+> **1.android:state_pressed="true/false"**
+>
+> true:表示按下状态下使用，false:表示非按下状态下使用。
+>
+> **2.android:state_focused="true/false"**
+>
+> ture:表示聚焦状态使用（例如使用滚动球/D-pad聚焦Button），false:表示非聚集状态下使用。
+>
+> **3.android:state_selected="true/false"**
+>
+> true:表示被选中状态下使用，false:表示非选中下使用
+>
+> **4.android:state_active="true/false"**
+>
+> true:表示可勾选状态时使用，false:表示不可勾选状态下使用
+>
+> **5. android:state_checkable="true/false"**
+>
+> true:表示勾选状态下使用，false:表示非勾选状态使用
+>
+> **6.android:state_checked="true/false"**
+>
+> true:表示勾选状态下使用，false:表示非勾选状态使用
+>
+> **7. android:state_enabled="true/false"**
+>
+> true:表示可用状态使用（能接收触摸/点击事件），false:表示不可用状态使用
+>
+> **8. android:state_window_focused="true/false"**
+>
+> true:表示应用程序窗口有焦点时使用（应用程序在前台），false:表示无焦点时使用
+>
 
 
 
@@ -70,21 +73,17 @@ true:表示应用程序窗口有焦点时使用（应用程序在前台），fal
 
 在主活动中设置图标的更改样式：
 
-![image-20210304225434828](C:\Users\11609\AppData\Roaming\Typora\typora-user-images\image-20210304225434828.png)
+![image-20210304225434828](C:\Users\11609\Pictures\Temp\23.png)
 
 #### **文字示例：**
 
 定义选择器：
 
-![image-20210304224715597](C:\Users\11609\AppData\Roaming\Typora\typora-user-images\image-20210304224715597.png)
+![3](C:\Users\11609\Pictures\Temp\3.png)
 
 在indicator的布局文件中修改TextView的textColor属性
 
-![image-20210304224926257](C:\Users\11609\AppData\Roaming\Typora\typora-user-images\image-20210304224926257.png)
-
-
-
-
+![image-20210306180103228](C:\Users\11609\Pictures\Temp\4.png)
 
 最需要注意的是我们的TextView的文字颜色是通过selector进行状态选择的。需要注意的是，这并不是图片，只是颜色，**不能放在drawable目录下，而应该放在color目录下**。
 
