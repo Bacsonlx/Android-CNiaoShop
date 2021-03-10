@@ -36,5 +36,10 @@ CNiaoShop_04: oKHttp的使用
 
 源码地址：https://github.com/Bacsonlx/Android-CNiaoShop/tree/master/CNiaoShop_04
 
-博客地址：https://blog.csdn.net/weixin_43750332/article/details/114609012
+博客地址：https://blog.csdn.net/weixin_43750332/article/details/114609012、
 
+Fresco: Fresco的使用
+
+源码地址：https://github.com/Bacsonlx/Android-CNiaoShop/tree/master/Fresco
+
+博客地址：https://blog.csdn.net/weixin_43750332/article/details/114645336
